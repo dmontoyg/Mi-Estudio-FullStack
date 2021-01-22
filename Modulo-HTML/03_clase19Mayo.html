@@ -6,9 +6,37 @@
     <title> Formulario</title>
 </head>
 <body>
-    <p>
-        Nombre
-    </p>
-    <input />
+    <form>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input  type="text" placeholder="Ingresa tu nombre" name="nombre" id="nombre"/>
+        </div><br>
+
+        <div>
+            <label for="email">Email</label>
+            <input  type="email" placeholder="Ingresa tu email" name="email" id="email"/>
+        </div><br>
+
+        <div>
+            <label for="pais">Nacionalidad:</label>
+            <select name="pais" id="pais">
+                <option selected value="">Pais</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+            </select>
+        </div><br>
+
+        <label for="url">Página Web</label>
+        <input  type="url" placeholder="www.google.com" name="url" id="url"/>
+    </div><br><br>
+
+        <div>
+            <input  type="submit" value="Guardar"/>
+            <button role="submit">Otro botón</button>
+        </div><br>
+
+    </form>
 </body>
 </html>
