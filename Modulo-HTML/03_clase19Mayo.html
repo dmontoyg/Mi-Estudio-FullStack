@@ -9,17 +9,17 @@
     <form>
         <div>
             <label for="nombre">Nombre</label>
-            <input  type="text" placeholder="Ingresa tu nombre" name="nombre" id="nombre"/>
+            <input tabindex="1"  type="text" placeholder="Ingresa tu nombre" name="nombre" id="nombre"/>
         </div><br>
 
         <div>
             <label for="email">Email</label>
-            <input  type="email" placeholder="Ingresa tu email" name="email" id="email"/>
+            <input tabindex="2" type="email" placeholder="Ingresa tu email" name="email" id="email"/>
         </div><br>
 
         <div>
             <label for="pais">Nacionalidad:</label>
-            <select name="pais" id="pais">
+            <select tabindex="3" name="pais" id="pais">
                 <option selected value="">Pais</option>
                 <option value="Argentina">Argentina</option>
                 <option value="Brasil">Brasil</option>
@@ -30,30 +30,30 @@
 
     <div>
         <label for="url">Página Web</label>
-        <input  type="url" placeholder="www.google.com" name="url" id="url"/>
+        <input tabindex="4" type="url" placeholder="www.google.com" name="url" id="url"/>
     </div><br><br>
 
     <div>
         <label for="pass">Password:</label>
-        <input  type="password" name="pass" id="pass" />
+        <input tabindex="5" type="password" name="pass" id="pass" />
         <!-- Con la propiedad disabled, podemos desactivar algún componente del formulario-->
     </div><br><br>
-    
+
     <div>
         <p>Tienes experiencia previa en programación</p>
-        <input  type="radio" name="exp" value="yes" id="exoYes"/>
+        <input tabindex="6" type="radio" name="exp" value="yes" id="exoYes"/>
         <label for="expYes">Si</label>
-        <input  type="radio" name="exp" value="no" id="exoNo"/>
+        <input tabindex="7" type="radio" name="exp" value="no" id="exoNo"/>
         <label for="expNo">No</label>
     </div>
 
     <div>
-        <input  type="checkbox" name="terms" id="terms" required/>
+        <input tabindex="8" type="checkbox" name="terms" id="terms" required/>
         <label for="terms">Acepto términos y condiciones</label>
     </div>
 
         <div>
-            <input  type="submit" value="Guardar"/>
+            <input tabindex="9" type="submit" value="Guardar"/>
             <button role="submit">Otro botón</button>
         </div><br>
 
