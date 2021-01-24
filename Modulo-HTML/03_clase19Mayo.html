@@ -28,9 +28,29 @@
             </select>
         </div><br>
 
+    <div>
         <label for="url">Página Web</label>
         <input  type="url" placeholder="www.google.com" name="url" id="url"/>
     </div><br><br>
+
+    <div>
+        <label for="pass">Password:</label>
+        <input  type="password" name="pass" id="pass" />
+        <!-- Con la propiedad disabled, podemos desactivar algún componente del formulario-->
+    </div><br><br>
+    
+    <div>
+        <p>Tienes experiencia previa en programación</p>
+        <input  type="radio" name="exp" value="yes" id="exoYes"/>
+        <label for="expYes">Si</label>
+        <input  type="radio" name="exp" value="no" id="exoNo"/>
+        <label for="expNo">No</label>
+    </div>
+
+    <div>
+        <input  type="checkbox" name="terms" id="terms" required/>
+        <label for="terms">Acepto términos y condiciones</label>
+    </div>
 
         <div>
             <input  type="submit" value="Guardar"/>
