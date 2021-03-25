@@ -1,0 +1,36 @@
+.container{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.square{
+    height: 300px;
+    width: 300px;
+}
+
+.square-1{
+    float: left;
+    background-color: yellow;
+}
+
+.square-2{
+    float: right;
+    background-color: red;
+}
+
+.square-3{
+    position: absolute;
+    left: 332px;
+    top: 485px;
+    background-color: blue;
+}
+
+.square-4{
+    position: absolute;
+    left: 650px;
+    top: 650px;
+    background-color: green;
+}
